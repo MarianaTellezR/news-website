@@ -2,3 +2,14 @@
   margin-block-start: 0em;
   margin-block-end: 0em;
 }
+
+.Menu .menu-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Menu #icon-flag {
+  width: 18px;
+}
