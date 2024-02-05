@@ -2,6 +2,7 @@ import React from "react";
 import "./Menu.css";
 import MX from "./img/MX.png";
 import US from "./img/US.png";
+import today from "./img/today-news.png";
 
 export default function Menu() {
   return (
@@ -11,7 +12,7 @@ export default function Menu() {
           <p>February 22, 2024</p>
         </div>
         <div>
-          <h1>Today News</h1>
+          <img src={today} alt="Today News" id="today" />
         </div>
         <div>
           <a>
