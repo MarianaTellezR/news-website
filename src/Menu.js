@@ -14,12 +14,12 @@ export default function Menu() {
         <div>
           <img src={today} alt="Today News" id="today" />
         </div>
-        <div>
-          <a>
+        <div className="countries">
+          <a className="country">
             <img src={MX} alt="MX" id="icon-flag" />
             MX
           </a>
-          <a>
+          <a className="country">
             <img src={US} alt="US" id="icon-flag" />
             US
           </a>
