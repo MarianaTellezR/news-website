@@ -37,4 +37,12 @@
   border-radius: 19px;
   color: #2a2a2a;
   padding: 0.1em 0.45em;
+  transition: all 200ms ease-in-out;
+}
+
+.Menu a:hover {
+  background-color: #af695c;
+  border: 1px solid #af695c;
+  color: white;
+  cursor: pointer;
 }
