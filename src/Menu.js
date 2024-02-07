@@ -3,13 +3,14 @@ import "./Menu.css";
 import MX from "./img/MX.png";
 import US from "./img/US.png";
 import today from "./img/today-news.png";
+import Date from "./Date";
 
 export default function Menu() {
   return (
     <div className="Menu">
       <section className="menu-navbar">
         <div>
-          <p>February 22, 2024</p>
+          <Date />
         </div>
         <div>
           <img src={today} alt="Today News" id="today" />
