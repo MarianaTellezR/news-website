@@ -11,12 +11,7 @@ function getDate() {
 function App() {
   const [currentDate, setCurrentDate] = useState(getDate());
 
-  return (
-    <div>
-      <h1>Today's Date</h1>
-      <p>{currentDate}</p>
-    </div>
-  );
+  return <p>{currentDate}</p>;
 }
 
 export default App;
