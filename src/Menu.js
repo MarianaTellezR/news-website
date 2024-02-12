@@ -4,6 +4,7 @@ import MX from "./img/MX.png";
 import US from "./img/US.png";
 import today from "./img/today-news.png";
 import Date from "./Date";
+import Footer from "./Footer";
 
 export default function Menu() {
   return (
@@ -38,7 +39,7 @@ export default function Menu() {
           <a href="#">Technology</a>
         </nav>
       </section>
-      
+      <Footer />
     </div>
   );
 }
