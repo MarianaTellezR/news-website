@@ -16,26 +16,26 @@ export default function Navigation() {
           <img src={today} alt="Today News" id="today" />
         </div>
         <div className="countries">
-          <a className="country">
+          <button className="country">
             <img src={MX} alt="MX" id="icon-flag" />
             MX
-          </a>
-          <a className="country">
+          </button>
+          <button className="country">
             <img src={US} alt="US" id="icon-flag" />
             US
-          </a>
+          </button>
         </div>
       </section>
       <hr />
       <section>
         <nav>
-          <button href="#">Home</button>
-          <button href="#">Business</button>
-          <button href="#">Entertainment</button>
-          <button href="#">Health</button>
-          <button href="#">Science</button>
-          <button href="#">Sports</button>
-          <button href="#">Technology</button>
+          <button>Home</button>
+          <button>Business</button>
+          <button>Entertainment</button>
+          <button>Health</button>
+          <button>Science</button>
+          <button>Sports</button>
+          <button>Technology</button>
         </nav>
       </section>
     </div>
