@@ -1,0 +1,48 @@
+.Navigation #today {
+  width: 35%;
+}
+
+.Navigation p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.Navigation .menu-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navigation #icon-flag {
+  width: 18px;
+}
+
+.Navigation .countries,
+.Navigation .country {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navigation .country {
+  margin: 0em 0.4em;
+}
+
+.Navigation section a {
+  margin: 0 0.6em;
+  text-decoration: none;
+  border: 1px solid #2a2a2a;
+  border-radius: 19px;
+  color: #2a2a2a;
+  padding: 0.1em 0.45em;
+  transition: all 200ms ease-in-out;
+}
+
+.Navigation section a:hover {
+  background-color: #af695c;
+  border: 1px solid #af695c;
+  color: white;
+  cursor: pointer;
+}

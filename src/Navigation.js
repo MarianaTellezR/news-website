@@ -6,7 +6,7 @@ import Date from "./Date";
 
 export default function Navigation() {
   return (
-    <div>
+    <div className="Navigation">
       <section className="menu-navbar">
         <div>
           <Date />
