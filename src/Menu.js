@@ -38,6 +38,7 @@ export default function Menu() {
           <a href="#">Technology</a>
         </nav>
       </section>
+      <footer>Created by Mariana Tellez Resendiz</footer>
     </div>
   );
 }
