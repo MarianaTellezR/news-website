@@ -3,6 +3,7 @@ import MX from "./img/MX.png";
 import US from "./img/US.png";
 import today from "./img/today-news.png";
 import Date from "./Date";
+import "./Navigation.css";
 
 export default function Navigation() {
   return (
@@ -28,13 +29,13 @@ export default function Navigation() {
       <hr />
       <section>
         <nav>
-          <a href="#">Home</a>
-          <a href="#">Business</a>
-          <a href="#">Entertainment</a>
-          <a href="#">Health</a>
-          <a href="#">Science</a>
-          <a href="#">Sports</a>
-          <a href="#">Technology</a>
+          <button href="#">Home</button>
+          <button href="#">Business</button>
+          <button href="#">Entertainment</button>
+          <button href="#">Health</button>
+          <button href="#">Science</button>
+          <button href="#">Sports</button>
+          <button href="#">Technology</button>
         </nav>
       </section>
     </div>

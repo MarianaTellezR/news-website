@@ -30,17 +30,17 @@
   margin: 0em 0.4em;
 }
 
-.Navigation section a {
+.Navigation section button {
   margin: 0 0.6em;
   text-decoration: none;
-  border: 1px solid #2a2a2a;
-  border-radius: 19px;
+  border-radius: 15px;
   color: #2a2a2a;
+  border: 1px solid #af695c;
   padding: 0.1em 0.45em;
   transition: all 200ms ease-in-out;
 }
 
-.Navigation section a:hover {
+.Navigation section button:hover {
   background-color: #af695c;
   border: 1px solid #af695c;
   color: white;
