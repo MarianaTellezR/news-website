@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 function getDate() {
   const today = new Date();
@@ -24,7 +24,7 @@ function getDate() {
 }
 
 function App() {
-  const [currentDate, setCurrentDate] = useState(getDate());
+  const currentDate = getDate();
 
   return <p>{currentDate}</p>;
 }
