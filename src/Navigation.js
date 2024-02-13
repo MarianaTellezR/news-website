@@ -17,12 +17,10 @@ export default function Navigation() {
         </div>
         <div className="countries">
           <button className="country">
-            <img src={MX} alt="MX" id="icon-flag" />
-            MX
+            <img src={MX} alt="MX" id="icon-flag" /> MX
           </button>
           <button className="country">
-            <img src={US} alt="US" id="icon-flag" />
-            US
+            <img src={US} alt="US" id="icon-flag" /> US
           </button>
         </div>
       </section>
