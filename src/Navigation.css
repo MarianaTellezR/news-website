@@ -38,10 +38,10 @@
   margin: 0 0.6em;
   text-decoration: none;
   border-radius: 15px;
-  color: #af695c;
-  border: 1.5px solid #af695c;
+  color: #2a2a2a;
+  border: 1.5px solid #2a2a2a;
   background-color: transparent;
-  padding: 0.1em 0.45em;
+  padding: 0.25em 0.6em;
   transition: all 200ms ease-in-out;
   font-size: 1em;
 }
